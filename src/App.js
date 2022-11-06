@@ -1,23 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+import NewCharacter from "./newCharacter";
+
+const CONTAINER_WIDTH = window.innerWidth
+const CONTAINER_HEIGHT = window.innerHeight/4
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" style={{backgroundColor: 'red', position: 'relative', width: CONTAINER_WIDTH, height: CONTAINER_HEIGHT}}>
+        <NewCharacter/>
     </div>
   );
 }

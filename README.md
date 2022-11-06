@@ -1,6 +1,5 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# SPRITE ANIMATION
+A character that moves when you click on the arrow keys. 
 
 ## Available Scripts
 
